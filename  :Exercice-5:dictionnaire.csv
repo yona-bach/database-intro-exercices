@@ -1,0 +1,11 @@
+Propriété;Commentaire;Entité;Type;Identifiant
+Id ;;Contact ;Varchar 255;X
+Sujet ;;Contact ;Varchar 255;
+Type_cours;;Contact ;Varachar255 ;
+tranche_age;;Contact ;Int;
+Age;;Contact ;Int ;
+nom;;Contact ;Varchar 255;
+Email;;Contact ;Varchar 255;
+numero_telephone;;Contact ;Int;
+Message;;Contact ;Varchar 255;
+Date ;;Contact ;Datetime;
