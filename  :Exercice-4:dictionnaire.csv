@@ -1,0 +1,18 @@
+Tableau 1
+Propriété;Commentaire;Entité;Type;Identifiant
+Id ;;Guitare;Varchar 255;X
+Nom_du_modele ;;Guitare;Varchar 255;
+Nb_de_cordes;;Guitare;Int;
+Nb_de_micro;;Guitare;Int;
+matiere_corp;;Guitare;Varchar 255;
+matiere_table;;Guitare;Varchar 255;
+matiere_manche;;Guitare;Varchar 255;
+numero_devis;;Devis;Int;X
+nom_client;;Devis;Varchar 255;
+prenom_client;;Devis;Varchar 255;
+date_envoi;;Devis;Datetime;
+Modele_guitare;Foreign key;Devis;Varchar 255;
+Numero_facture;;Facture;Int;X
+date_envoi;;Facture;Datetime;
+devis_lié;Foreign key;Facture;Varchar 255;
+Payée;;Facture;BOOLEAN;

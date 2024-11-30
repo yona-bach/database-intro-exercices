@@ -1,0 +1,15 @@
+Tableau 1
+"Propriété
+";Commentaire ;Entité;Type;Identifiant 
+Nom;;Animal;Varchar 255;
+Espèce ;;Animal;Vachar 255;
+Race ;;Animal;Varchar 255;
+Identifiant_puce ;;Animal;Int;X
+Date_de_naissance ;;Animal;Datetime ;
+date ;;Consultation ;Datetime ;
+Heure ;;Consultation ;Datetime ;
+Nom_du_docteur ;;Consultation ;Varchar 255;
+Animale_présent;;Consultation;Boolean;
+Tarif ;;Consultation ;Float ;
+Animal;Foreign key;Consultation ;Varchar 255;
+Numero_consultation;;Consultation;Int ;X
